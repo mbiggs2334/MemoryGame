@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Memory Game!</h1>
+  </header>
+  <div class="modal-wrapper">
+    <div class="score-box">
+      <span id="close-modal">&#10006;</span>
+      <div class="current-score-wrapper">
+        <span>YOUR TIME</span>
+        <span id="current-score"></span>
+      </div>
+      
+      <div class='high-scores'>
+        <h2 class="score-header">Your Best Times</h2>
+        <div id="high-score-wrapper"></div>
+      </div>
+    </div>
+  </div>
+  <div class="game-body">
+    <div class="head-wrapper">
+      <div class="button-wrapper">
+        <div class="button button_base b06_3d_swap" id="startBtn">
+          <div>
+            Start
+          </div>
+          <div>
+            Start
+          </div>
+        </div>
+        <div class="button button_base b062_3d_swap" id="resetBtn">
+          <div>
+            Reset
+          </div>
+          <div>
+            Reset
+          </div>
+        </div>
+      </div>
+      <div class="score-time-wrapper">
+        <div id="score">
+          <span>Score: 0</span>
+        </div>
+        <div id="timer">
+          <span>Time: 00: 00</span>
+        </div>
+      </div>
+    </div>
+    <div id="game">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
